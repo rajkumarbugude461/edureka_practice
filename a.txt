@@ -1,0 +1,2 @@
+this is a plain file to view content in git.
+adding another line to check the "git diff" command to see the difference.
