@@ -1,2 +1,15 @@
 this is a plain file to view content in git.
 adding another line to check the "git diff" command to see the difference.
+
+using this file to 
+=>checkout-> to shift from one branch to another and syntax: git checkout <branch name>
+=> git branch <branch name> -> to create new branch 
+
+//if we are currently in master branch,
+=> git merge <branch name> -> to merge both the branches i.e., master and testing branches are merging
+
+++=> conflicts while merging.... if a file is in master branch and the same file is added to another branch and there are changes to the file in the same line and if we mergr both the branches together, then it will show merging conflicts.
+like at that point of time, it will not sure to consider which one further either the master one or the other branch one. so, in order to make changes to the files, we will be using a command
+-> git mergrtool 
+once we change them, then we have to press ":wq" to exit that particlar screen.
+then we can go for commit the changes and all
